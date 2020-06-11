@@ -1,0 +1,1 @@
+include ':app', ':easeui', ':base', ':base-adapter', ':base-util'
