@@ -105,6 +105,7 @@ public class APP extends MultiDexApplication {
     }
 
     private void createNotificationChannel(){
+                                                    // >= 26
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
             int importance = NotificationManager.IMPORTANCE_HIGH;

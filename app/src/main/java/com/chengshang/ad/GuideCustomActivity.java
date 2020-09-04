@@ -27,17 +27,17 @@ import androidx.appcompat.app.AppCompatActivity;
  */
 public class GuideCustomActivity extends AppCompatActivity implements CallBack {
     private GuideCustomViews GuideCustomViews;
-    private final int[] mPageImages = {
-            R.mipmap.guide_1,
-            R.mipmap.guide_2,
-            R.mipmap.guide_3,
-            R.mipmap.guide_4
-    };
-
-    private final int[] mGuidePoint = {
-            R.mipmap.icon_guide_point_select,
-            R.mipmap.icon_guide_point_unselect
-    };
+//    private final int[] mPageImages = {
+//            R.mipmap.guide_1,
+//            R.mipmap.guide_2,
+//            R.mipmap.guide_3,
+//            R.mipmap.guide_4
+//    };
+//
+//    private final int[] mGuidePoint = {
+//            R.mipmap.icon_guide_point_select,
+//            R.mipmap.icon_guide_point_unselect
+//    };
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -61,7 +61,7 @@ public class GuideCustomActivity extends AppCompatActivity implements CallBack {
 
     private void initView() {
         GuideCustomViews = findViewById(R.id.guide_CustomView);
-        GuideCustomViews.setData(mPageImages, mGuidePoint, this);
+//        GuideCustomViews.setData(mPageImages, mGuidePoint, this);
     }
 
     @Override

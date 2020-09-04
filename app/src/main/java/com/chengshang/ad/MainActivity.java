@@ -75,6 +75,7 @@ import java.util.Locale;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationManagerCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import butterknife.BindView;
@@ -764,4 +765,5 @@ public class MainActivity extends BaseActivity implements EasyPermissions.Permis
             e.printStackTrace();
         }
     }
+
 }

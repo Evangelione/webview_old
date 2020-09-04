@@ -71,6 +71,9 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/NoAppTheme">
+
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="${BAIDU_KEY}" />
@@ -297,7 +300,7 @@
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
         <activity android:name=".NoticeCenterActivity" />
-        <activity android:name=".GuideCustomActivity"></activity>
+<!--        <activity android:name=".GuideCustomActivity"></activity>-->
 
         <activity-alias
             android:name="${JPUSH_PKGNAME}.wxapi.WXPayEntryActivity"

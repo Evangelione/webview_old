@@ -17,6 +17,12 @@ public class Constants {
 //    public static final String BASE_URL= "https://www.91gzt.com";
     public static final String MAINURL = BASE_URL + "/wap.php?g=Wap&c=login&a=centre";//主页地址
 
+    public static final String STAFF_MSG_DETAIL = BASE_URL + "/staff/staff/message";//店员消息列表
+    public static final String STAFF_PENDING_ORDER = BASE_URL + "/staff/staffOrder/entryOrder";//店员挂单页面列表
+    public static final String STAFF_SERVICE = BASE_URL + "/packapp/storestaff/service.html";//店员服务工单列表
+
+
+
     //    public static final String URL_ADDR = BASE_URL + "/wap.php?g=Wap&c=service&a=index";//服务车
 //    public static final String URL_ADDR = BASE_URL + "/wap.php?g=Wap&c=Home&a=index&no_house=1";
 }

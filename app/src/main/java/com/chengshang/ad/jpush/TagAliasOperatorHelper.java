@@ -350,6 +350,39 @@ public class TagAliasOperatorHelper {
         String alias;
         boolean isAliasAction;
 
+
+        public int getAction() {
+            return action;
+        }
+
+        public void setAction(int action) {
+            this.action = action;
+        }
+
+        public Set<String> getTags() {
+            return tags;
+        }
+
+        public void setTags(Set<String> tags) {
+            this.tags = tags;
+        }
+
+        public String getAlias() {
+            return alias;
+        }
+
+        public void setAlias(String alias) {
+            this.alias = alias;
+        }
+
+        public boolean isAliasAction() {
+            return isAliasAction;
+        }
+
+        public void setAliasAction(boolean aliasAction) {
+            isAliasAction = aliasAction;
+        }
+
         @Override
         public String toString() {
             return "TagAliasBean{" +
